@@ -1,4 +1,4 @@
-# DevOps Assignment – Developer Notes
+# DevOps Assignment – DevOps Notes
 
 This document complements the original Formlabs assignment README.
 It explains how I approached the task, my technology choices, and how
