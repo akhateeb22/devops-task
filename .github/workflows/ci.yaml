@@ -40,7 +40,7 @@ jobs:
         echo "TAG=$TAG" >> $GITHUB_ENV
 
         docker buildx build \
-          --platform linux/amd64,linux/arm64 \
+          --platform linux/amd64 \
           -t $IMAGE:$TAG \
           -t $IMAGE:latest \
           --push .
